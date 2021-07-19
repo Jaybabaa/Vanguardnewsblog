@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+font-family: Arial;
+background: whitesmoke;
+}
+.menu{
+background: black;
+display: flex;
+justify-content: flex-end;
+border-bottom: solid 4px white;
+}
+.col{
+margin-left: 225px;
+text-decoration: none;
+padding-top: 50px;
+padding-bottom: 30px;
+}
+
+.col a{
+text-decoration:none;
+color: red;
+font-size: 100px;
+font-weight: 1000;
+}
+.col-menu{
+margin-right: 50px;
+padding-top: 50px;
+}
+
+.col-menu .dropbtn{
+font-size: 32px;
+color: white;
+margin: 0; 
+}
+
+.nav{
+background:black;
+padding-top: 10px;
+}
+.nav a{
+text-decoration: none;
+color: white;
+font-size: 35px;
+font-weight: 200;
+}
+
+.nav-a{
+margin-right: 10px;
+padding-left: 10px;
+}
+
+.vanguard{
+margin-left: 30px;
+margin-top: 20px;
+font-size: 60px;
+margin-right: 30px;
+}
+
+.vanguard a{
+text-decoration: none;
+font-size: 25px;
+margin: 10px;
+}
+
+#time{
+color: red;
+}
+
+a{
+color: black;
+}
+
+.vanguard a:active{
+color: red;
+border-left: solid 2px red;
+}
